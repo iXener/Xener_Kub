@@ -86,7 +86,7 @@ Section:NewSlider("ปรับกระโดดสูง", "SliderInfo", 500, 
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 Section:NewButton("Aimbot", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/thegod005/Mode/main/README.md"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Raw%20Main.lua"))()
 end)
 Section:NewButton("ชักว่าว(ใช้ได้เฉพาะแมพที่ใช้ R6)", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
