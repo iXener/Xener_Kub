@@ -59,7 +59,7 @@ local Pitch = 100
             end
         end
 end)
-Section:NewButton("เปิดเสียงพี่จ๋า"), "ButtonInfo", function()
+Section:NewButton("เปิดเสียงพี่จ๋า)", "ButtonInfo", function()
     sound = true
 local ID = "rbxassetid://77192534818370" 
 local Name = "get troll" 
