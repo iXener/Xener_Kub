@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Xener Kub Update 0.00000001 by iXener             Discord : Sigma ปะทะ 112💂‍♀️", "Ocean")
+local Window = Library.CreateLib("Xener Kub Update 0.00000001 by zxz          Discord : Sigma ปะทะ 112💂‍♀️", "Ocean")
 local Tab = Window:NewTab("1")
 local Section = Tab:NewSection("เสกของ")
 Section:NewButton("เสก", "ButtonInfo", function()
