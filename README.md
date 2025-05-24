@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Xener Kub Update 0.00000001 by zxz          Discord : Sigma ปะทะ 112💂‍♀️", "Ocean")
+local Window = Library.CreateLib("Xener Kub Update 0.00000002 by zxz          Discord : Sigma ปะทะ 112💂‍♀️", "Ocean")
 local Tab = Window:NewTab("1")
 local Section = Tab:NewSection("เสกของ")
 Section:NewButton("เสก", "ButtonInfo", function()
@@ -45,6 +45,26 @@ local ID = "rbxassetid://4776398821"
 local Name = "get troll" 
 local Volume = 100 
 local Pitch = 100 
+
+           for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+            if v:IsA("RemoteEvent") and v.Name == "AC6_FE_Sounds" then
+                if sound == true then
+                    v:FireServer("newSound", Name, workspace, ID, Pitch, Volume, true)
+                    v:FireServer("playSound", Name)
+                end 
+
+                if sound == false then
+                    v:FireServer("stopSound", Name)
+                end
+            end
+        end
+end)
+Section:NewButton("เปิดเสียงพี่จ๋า"), "ButtonInfo", function()
+    sound = true
+local ID = "rbxassetid://77192534818370" 
+local Name = "get troll" 
+local Volume = 100 
+local Pitch = 1
 
            for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
             if v:IsA("RemoteEvent") and v.Name == "AC6_FE_Sounds" then
